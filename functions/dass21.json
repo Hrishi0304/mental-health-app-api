@@ -1,0 +1,240 @@
+{
+    "dass21": {
+        "title": "Depression Anxiety Stress Scale-21 ",
+        "description": "The Depression, Anxiety and Stress Scale - 21 Items (DASS-21) is a set of three self-report scales designed to measure the emotional states of depression, anxiety and stress.",
+        "subtitle": "Over the last two weeks, how often have you been bothered by any of the following problems?",
+        "outOfScore": 63,
+        "questions": [
+            {
+                "id": "1",
+                "label": "I found it hard to wind down."
+            },
+            {
+                "id": "2",
+                "label": "I was aware of dryness of my mouth"
+            },
+            {
+                "id": "3",
+                "label": "I couldn’t seem to experience any positive feeling at all."
+            },
+            {
+                "id": "4",
+                "label": "I experienced breathing difficulty."
+            },
+            {
+                "id": "5",
+                "label": "I find it difficult to work up the initiative to do things."
+            },
+            {
+                "id": "6",
+                "label": "I tended to over-react to situations."
+            },
+            {
+                "id": "7",
+                "label": "I experienced trembling (eg, in the hands)."
+            },
+            {
+                "id": "8",
+                "label": "I felt that I was using a lot of nervous energy."
+            },
+            {
+                "id": "9",
+                "label": "I was worried about situations in which I might panic and make a fool of myself."
+            },
+            {
+                "id": "10",
+                "label": "I felt that I had nothing to look forward to."
+            },
+            {
+                "id": "11",
+                "label": "I found myself getting agitated."
+            },
+            {
+                "id": "12",
+                "label": "I found it difficult to relax."
+            },
+            {
+                "id": "13",
+                "label": "I felt down-hearted and blue."
+            },
+            {
+                "id": "14",
+                "label": "I was intolerant of anything that kept me from getting on with what I was doing."
+            },
+            {
+                "id": "15",
+                "label": "I felt I was close to panic."
+            },
+            {
+                "id": "16",
+                "label": "I was unable to become enthusiastic about anything."
+            },
+            {
+                "id": "17",
+                "label": "I felt I wasn’t worth much as a person."
+            },
+            {
+                "id": "18",
+                "label": "I felt that I was rather touchy."
+            },
+            {
+                "id": "19",
+                "label": "I was aware of the action of my heart in the absence of physical exertion."
+            },
+            {
+                "id": "20",
+                "label": "I felt scared without any good reason."
+            },
+            {
+                "id": "21",
+                "label": "I felt that life was meaningless."
+            }
+        ],
+        "choices": [
+            {
+                "label": "Not at all",
+                "points": 0
+            },
+            {
+                "label": "Several days",
+                "points": 1
+            },
+            {
+                "label": "More than half the days",
+                "points": 2
+            },
+            {
+                "label": "Nearly every day",
+                "points": 3
+            }
+        ],
+        "scale":{
+            "depression": [
+                {
+                    "range": 
+                    {
+                        "min": 0,
+                        "max": 4
+                    },
+                    "severity": "normal"
+                },
+                {
+                    "range": 
+                    {
+                        "min": 5,
+                        "max": 6
+                    },
+                    "severity": "mild"
+                },
+                {
+                    "range": 
+                    {
+                        "min": 7,
+                        "max": 10
+                    },
+                    "severity": "moderate"
+                },
+                {
+                    "range": 
+                    {
+                        "min": 11,
+                        "max": 13
+                    },
+                    "severity": "severe"
+                },
+                {
+                    "range": 
+                    {
+                        "min": 14,
+                        "max": 63
+                    },
+                    "severity": "extremely severe"
+                }
+            ],
+            "anxiety": [
+                {
+                    "range": 
+                    {
+                        "min": 0,
+                        "max": 3
+                    },
+                    "severity": "normal"
+                },
+                {
+                    "range": 
+                    {
+                        "min": 4,
+                        "max": 5
+                    },
+                    "severity": "mild"
+                },
+                {
+                    "range": 
+                    {
+                        "min": 6,
+                        "max": 7
+                    },
+                    "severity": "moderate"
+                },
+                {
+                    "range": 
+                    {
+                        "min": 8,
+                        "max": 9
+                    },
+                    "severity": "severe"
+                },
+                {
+                    "range": 
+                    {
+                        "min": 10,
+                        "max": 63
+                    },
+                    "severity": "extremely severe"
+                }
+            ],
+            "stress": [
+                {
+                    "range": 
+                    {
+                        "min": 0,
+                        "max": 7
+                    },
+                    "severity": "normal"
+                },
+                {
+                    "range": 
+                    {
+                        "min": 8,
+                        "max": 9
+                    },
+                    "severity": "mild"
+                },
+                {
+                    "range": 
+                    {
+                        "min": 10,
+                        "max": 12
+                    },
+                    "severity": "moderate"
+                },
+                {
+                    "range": 
+                    {
+                        "min": 13,
+                        "max": 16
+                    },
+                    "severity": "severe"
+                },
+                {
+                    "range": 
+                    {
+                        "min": 17,
+                        "max": 63
+                    },
+                    "severity": "extremely severe"
+                }
+            ]
+        }
+    }
+}

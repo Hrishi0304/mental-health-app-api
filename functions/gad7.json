@@ -1,0 +1,78 @@
+{
+    "gad7": {
+        "title":"Generalised Anxiety Disorder Assessment (GAD-7)",
+        "description":"This easy-to-use self-administered patient questionnaire is used as a screening tool and severity measure for generalised anxiety disorder (GAD).",
+        "subtitle":"Over the last two weeks, how often have you been bothered by any of the following problems?",
+        "outOfScore":21,
+        "questions": [
+            {
+                "id":"1",
+                "label":"Feeling nervous, anxious or on edge"
+            },
+            {
+                "id":"2",
+                "label":"Not being able to stop or control worrying"
+            },
+            {
+                "id":"3",
+                "label":"Worrying too much about different things"
+            },
+            {
+                "id":"4",
+                "label":"Trouble relaxing"
+            },
+            {
+                "id":"5",
+                "label":"Being so restless that it is hard to sit still"
+            },
+            {
+                "id":"6",
+                "label":"Becoming easily annoyed or irritated"
+            },
+            {
+                "id":"7",
+                "label":"Feeling afraid as if something awful might happen"
+            }
+        ],
+        "choices": [
+            {"label":"Not at all","points":0},
+            {"label":"Several days","points":1},
+            {"label":"More than half the days","points":2},
+            {"label":"Nearly every day","points":3}
+        ],
+        "scale":[
+            {
+              "range":
+              {
+                "min": 0,
+                "max": 4
+              },
+              "severity": "normal"
+            },
+            {
+              "range":
+              {
+                "min": 5,
+                "max": 9
+              },
+              "severity": "mild"
+            },
+            {
+              "range":
+              {
+                "min": 10,
+                "max": 14
+              },
+              "severity": "moderate"
+            },
+            {
+              "range":
+              {
+                "min": 15,
+                "max": 21
+              },
+              "severity": "severe"
+            }
+        ]
+    }
+}
